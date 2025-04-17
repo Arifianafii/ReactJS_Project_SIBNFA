@@ -34,7 +34,7 @@ export default function ProductList() {
                     <p className="card-text">{book.description}</p>
                     <div className="mt-auto d-flex justify-content-between align-items-center">
                       <div className="btn-group">
-                        <p>{book.author}</p>
+                        <p className="text-muted">By {book.author}</p>
                       </div>
                       <small className="text-muted">{book.year}</small>
                     </div>
